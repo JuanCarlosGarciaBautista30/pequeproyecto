@@ -1,5 +1,5 @@
-print('Bienvenidos') # Damos la bienbenida al usuario.
-print('Calcula tu (IMC) indice de masa corporal llenando los tus siguientes datos.\n')
+print(' Bienvenidos') # Damos la bienbenida al usuario.
+print(' Calcula tu (IMC) indice de masa corporal llenando los tus siguientes datos.\n')
 
 import re
 # Usaremos un while True para que este iterando las sentencias hasta que sean falsas.
