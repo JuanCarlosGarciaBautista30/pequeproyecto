@@ -1,38 +1,22 @@
+print('hola bienbenido')
+nombre=input('¿Cuál es tu nombre?')
+
+numero_1=int(input('ingresa una fecha: '))
+numero_aleatorio=int(input('ingresa otra fecha(la que gustes:)'))
+
+if numero_1 - numero_aleatorio >1:
+    print(f'Han pasado {numero_1-numero_aleatorio} años desde {numero_aleatorio}')
+
+elif numero_1 - numero_aleatorio <-1:
+    print(f'faltan {numero_aleatorio-numero_1} años para {numero_aleatorio}')
+
+elif numero_1==numero_aleatorio:
+    print('estas en la misma fecha')
+
+elif numero_1-numero_aleatorio ==1:
+    print(f'ha pasado {numero_1-numero_aleatorio} año desde {numero_aleatorio}')
+
+elif numero_1-numero_aleatorio == -1:
+    print(f'falta {numero_aleatorio-numero_1} año para {numero_aleatorio}')
 
 
-while True:
-    try:
-        
-        año_actual = int(input('\nintroduce el año actual en el que vives: '))
-        año_aleatorio = int(input('introduce un año (el que gustes):'))
-
-        if  año_actual - año_aleatorio > 1:
-            print(f'Han pasado {año_actual-año_aleatorio} años desde {año_aleatorio}')
-            break
-
-        elif  año_actual - año_aleatorio < -1:
-            print(f'faltan {año_aleatorio-año_actual} años para el {año_aleatorio}')
-            break
-
-        elif año_actual==año_aleatorio:
-            print('las dos fechas ingresadas son el mismo año.')
-            break
-        
-        elif año_actual-año_aleatorio == 1:
-            print(f'ha pasado 1 año desde el {año_aleatorio}')
-            break
-
-        elif  año_actual - año_aleatorio == -1:
-            print(f'aun falta un año para el {año_aleatorio}')
-            break
-        
-        else: 
-          break
-        
-    
-    except ValueError:
-        print('no puedes dejar un campo vacio, ni introcucir letras ni simbolos,intenta de nuevo.')
-        continue
-
-
-    
