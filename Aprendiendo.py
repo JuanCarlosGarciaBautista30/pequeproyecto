@@ -1,4 +1,4 @@
-print('hola bienbenido')
+print('hola bienbenido') # se le da la bienvenida al usuario para convencerlo de que esta usando la app corrceta
 nombre=input('¿Cuál es tu nombre?')
 
 numero_1=int(input('ingresa una fecha: '))
@@ -19,4 +19,6 @@ elif numero_1-numero_aleatorio ==1:
 elif numero_1-numero_aleatorio == -1:
     print(f'falta {numero_aleatorio-numero_1} año para {numero_aleatorio}')
 
+print('gracias por usar nuestra app.')
+print('espero regreses pronto')
 
